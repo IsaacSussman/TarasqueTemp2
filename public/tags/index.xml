@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tarasque</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Tarasque</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Dec 2021 22:50:26 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-2024</title>
+      <link>/tags/2023-2024/</link>
+      <pubDate>Wed, 01 Dec 2021 22:50:26 +0000</pubDate>
+      
+      <guid>/tags/2023-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Info</title>
+      <link>/tags/info/</link>
+      <pubDate>Wed, 01 Dec 2021 22:50:26 +0000</pubDate>
+      
+      <guid>/tags/info/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>/tags/writing/</link>
+      <pubDate>Wed, 01 Dec 2021 22:50:26 +0000</pubDate>
+      
+      <guid>/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

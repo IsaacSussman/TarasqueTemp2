@@ -1,0 +1,14 @@
+.text-center {
+	display: flex;
+	flex: 1 1 auto;
+
+	align-items: center;
+	justify-content: center;
+	
+}
+
+div#content {
+	display: flex;
+	  flex: 1 1 auto;
+	
+}

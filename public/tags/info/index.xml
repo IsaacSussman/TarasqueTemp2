@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Info on Tarasque</title>
+    <link>/tags/info/</link>
+    <description>Recent content in Info on Tarasque</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Dec 2021 22:50:26 +0000</lastBuildDate><atom:link href="/tags/info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s a Tarasque?</title>
+      <link>/info/tarasque/</link>
+      <pubDate>Wed, 01 Dec 2021 22:50:26 +0000</pubDate>
+      
+      <guid>/info/tarasque/</guid>
+      <description>A quick look at what we&amp;rsquo;re all about!</description>
+    </item>
+    
+  </channel>
+</rss>

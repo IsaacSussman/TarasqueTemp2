@@ -1,0 +1,22 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Tarasque'
+theme = "tarasque"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+	[[menu.main]]
+ 		name = "Info"
+	 	url = "/info/"
+	 	weight = 4

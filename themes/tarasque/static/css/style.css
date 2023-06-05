@@ -1,0 +1,128 @@
+:root {
+	font-family: "Forum", "Garamond", serif;
+	background: #FBFFF1;
+}
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 95%;
+	margin:1%;
+	padding:1%;
+	
+}
+
+h1 {
+	font-family: "Yatra One","Forum", "Garamond", serif;
+}
+
+.main-section {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+h1.title {
+	text-align:center;
+	
+}
+nav {
+	display:flex;
+	justify-content:space-evenly;
+	font-size:130%;
+}
+
+nav a {
+	text-decoration:none;
+}
+
+nav span:last-child {
+	display:none;
+}
+
+}
+/*BUTTONS*/
+@keyframes slightSquish{
+    0%{transform: scaleX(1.01) scaleY(0.987) rotate(-1deg);}
+    25%{rotate: 0deg;}
+    50%{transform: scaleX(0.99) scaleY(1.013) rotate(1deg);}
+    75%{rotate: 0deg;}
+    100%{transform: scaleX(1.01) scaleY(0.987) rotate(-1deg);}
+}
+button {
+    padding: 1.8em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    margin: 1em;
+    border: 3px solid black;
+    border-radius: 1em;
+    --background-color:rgb(255, 72, 169);
+		font-weight:bold;
+	
+    background-color: var(--background-color);
+		font-size:100%;
+    transition: transate 0.5s, box-shadow 0.5s; 
+    translate: 1em, -1em;
+    flex-grow:1;
+    animation: slightSquish 1s ease-in-out 0.5s infinite none;
+
+}
+
+
+button:hover{
+    box-shadow: -0.3em 0.3em 0 0 rgba(0, 0, 0, 0.4),-0.3em 0.3em 0 0 var(--background-color),-0.3em 0.3em 0 0.125em rgba(0, 0, 0, 1);
+    cursor:pointer;   
+}
+
+button:active {
+    
+}
+
+.button-list {
+	display:inline-flex;
+	justify-content:space-between;
+}
+
+nav {
+	background:blanchedalmond;
+	padding:1%;
+	border: 1px black solid;
+	border-radius:9px;
+}
+
+section {
+	border: solid black 2px;
+	padding:10px;
+	margin:10px;
+	margin-bottom:20px;
+	display:flex;
+	justify-content:space-evenly;
+	max-width: 700px;
+	border-radius:10px;
+}
+
+#single-main-content {
+	width:60%;  min-width: min(460px, 90%);
+}
+/*
+@media (max-width:90%) {
+	#single-main-content {
+		width:90%;
+	}
+}
+*/
+img {
+	max-width:90%;
+}
+
+#tag-link {
+	
+}
+
+a {
+	color:chocolate;
+	text-decoration: dotted;
+}

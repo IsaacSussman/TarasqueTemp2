@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<main id = "list-page-main">
+{{ range .Pages.ByPublishDate.Reverse }}
+<section id="list-item" >
+<div>
+			<h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    	<p>{{ partial "metadata.html" . }}</p>
+    	<p>{{ .Summary }}</p>
+</div>
+		<img id="list-cover" src= {{ .Params.cover }} style="object-fit: cover; width: 115px; height:115px;">
+</section>
+{{ end }}
+</main>
+{{ end }}
