@@ -1,6 +1,6 @@
 :root {
 	font-family: "Forum", "Garamond", serif;
-	background: #FBFFF1;
+	background: #eaeaea;
 }
 html {
 	height: 100%;
@@ -57,7 +57,7 @@ button {
     padding-top: 1.3em;
     padding-bottom: 1.3em;
     margin: 1em;
-    border: 3px solid black;
+    border: 10px solid black;
     border-radius: 1em;
     --background-color:rgb(255, 72, 169);
 		font-weight:bold;
